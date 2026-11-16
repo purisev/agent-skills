@@ -1,0 +1,24 @@
+{
+  "name": "infra",
+  "version": "1.0.0",
+  "description": "Skills for infrastructure CLIs: Ansible, Helm, Terraform in preflight mode, Terramate templating and VictoriaMetrics MetricsQL.",
+  "author": {
+    "name": "purisev",
+    "url": "https://github.com/purisev"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Infra skills",
+    "shortDescription": "Ansible, Helm, Terraform, Terramate and MetricsQL.",
+    "longDescription": "Guides Codex through safe, verifiable work with Ansible, Helm, Terraform (preflight only), Terramate templating and VictoriaMetrics MetricsQL queries.",
+    "developerName": "purisev",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Lint and render this Helm chart.",
+      "Plan this Terraform change without applying it.",
+      "Write a MetricsQL query for the error ratio."
+    ]
+  },
+  "repository": "https://github.com/purisev/agent-skills"
+}

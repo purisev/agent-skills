@@ -1,0 +1,24 @@
+{
+  "name": "playwright",
+  "version": "1.0.4",
+  "description": "Clawic's Playwright skill: write, debug and run browser tests, drive a browser through Playwright MCP, and extract data from JS-rendered pages.",
+  "author": {
+    "name": "Ivan G. Davila (Clawic)",
+    "url": "https://clawic.com/skills/playwright"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Playwright",
+    "shortDescription": "Browser tests, automation and scraping with Playwright.",
+    "longDescription": "Writes and repairs Playwright specs, diagnoses flaky and CI-only failures, drives a live browser through Playwright MCP and extracts data from JS-rendered pages.",
+    "developerName": "Ivan G. Davila (Clawic)",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Why does this Playwright test fail only in CI?",
+      "Open this page in a browser and take a screenshot.",
+      "Extract the table from this JS-rendered page."
+    ]
+  },
+  "repository": "https://github.com/purisev/agent-skills"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "humanizer",
+  "version": "4.0.0",
+  "description": "Rewrite AI-sounding text so it reads like the writer without changing what it says.",
+  "author": {
+    "name": "blader",
+    "url": "https://github.com/blader"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Humanizer",
+    "shortDescription": "Make AI-written text sound like the writer.",
+    "longDescription": "Rewrites prose to remove AI writing patterns such as forced triads, staged openers, inflated claims and stock AI words, without changing its facts.",
+    "developerName": "blader",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "defaultPrompt": [
+      "Use $humanizer to rewrite this text in my voice without changing its facts.",
+      "Review this draft for AI writing patterns."
+    ]
+  },
+  "repository": "https://github.com/blader/humanizer"
+}
